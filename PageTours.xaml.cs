@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace WPF_Rusanova
 {
     /// <summary>
-    /// Логика взаимодействия для PageMain.xaml
+    /// Логика взаимодействия для PageTours.xaml
     /// </summary>
-    public partial class PageMain : Page
+    public partial class PageTours : Page
     {
-        public PageMain()
+        public PageTours()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            foreach (Window w in App.Current.Windows)
-                w.Close();
         }
     }
 }

@@ -9,9 +9,11 @@
       Title="PageMain">
     
     <StackPanel Background="{StaticResource BackgroundWindowResource}">
-        <TextBlock Margin="25,30,25,5" FontSize="20">Система внутреннего учета инвестиционной компании</TextBlock>
+        <TextBlock Margin="25,30,25,5" FontSize="20">Система оформления туристических поездок</TextBlock>
         <TextBlock Margin="25,30,5,5">
-            <Hyperlink NavigateUri="PageEmployee.xaml">Сотрудники</Hyperlink>
+            <Hyperlink NavigateUri="PageTourists.xaml">Туристы</Hyperlink>
         </TextBlock>
+        <Button Margin="25,15" Width="60" HorizontalAlignment="left"
+                Click="Button_Click">Выход</Button>
     </StackPanel>
     </Page>
