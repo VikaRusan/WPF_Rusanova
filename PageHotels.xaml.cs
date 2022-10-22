@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WPF_Rusanova
 {
     /// <summary>
-    /// Логика взаимодействия для PageTours.xaml
+    /// Логика взаимодействия для PageHotels.xaml
     /// </summary>
-    public partial class PageTours : Page
+    public partial class PageHotels : Page
     {
-        public PageTours()
+        public PageHotels()
         {
             InitializeComponent();
         }

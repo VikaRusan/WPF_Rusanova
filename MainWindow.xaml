@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Rusanova"
         mc:Ignorable="d"
-        Title="Информационная система ВУ" Height="350" Width="525">
+        Title="Информационная система туристических поездок" Height="350" Width="525">
     <Grid Name="grid">
         <Frame Name ="frame1" Margin="3" 
                Source="PageMain.xaml"
